@@ -3,8 +3,9 @@ package main
 import (
 	"net/http"
 	"time"
-	"github.com/gin-gonic/gin"
+
 	"github.com/dgrijalva/jwt-go"
+	"github.com/gin-gonic/gin"
 )
 
 // Secret key for JWT
